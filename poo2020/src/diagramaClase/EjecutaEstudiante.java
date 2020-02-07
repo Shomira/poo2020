@@ -13,8 +13,8 @@ public class EjecutaEstudiante {
         estudiante1.actualizar_cedula("11530151765");
         estudiante1.actualizar_celular("0984647563");
         // obtencion de datos
-        float promedio = estudiante1.actualizar_promedio(15.8);
-        String aprobacion = estudiante1.obtener_aprobacion(promedio);
+        //String promedio = estudiante1.actualizar_promedio();
+        //String aprobacion = estudiante1.obtener_aprobacion(promedio);
         String nombre = estudiante1.obtener_nombre();
         String correo = estudiante1.obtener_correo();
         String carrera = estudiante1.obtener_carrera();

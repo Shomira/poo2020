@@ -12,7 +12,7 @@ public class Estudiante {
     private String area;
     private String numMaterias;
     private int ciclo;
-    private float promedio;
+    private double promedio;
     private String tipoSangre;
     private String estadoCivil;
 
@@ -22,7 +22,7 @@ public class Estudiante {
      * @return promedioEs
      */
 
-    public String obtener_aprobacion(float promedio){
+    public String obtener_aprobacion(double promedio){
         String promedioEs;
         if (this.promedio >= 28.0){
                 promedioEs = "Aprobado";
@@ -84,7 +84,7 @@ public class Estudiante {
      *
      * @param promedio
      */
-    public void  actualizar_promedio(float promedio ){
+    public void  actualizar_promedio(double promedio ){
         // Asigna a la variable global la local
         // Con el this hacemos referencia a variables globales
         this.promedio = promedio;
@@ -151,16 +151,19 @@ public class Estudiante {
      * Metodo para estudiar
      */
     public void  estudiar(){
+        System.out.println("");
 
     }
 
     public void  jugar(){
-
+        System.out.println("");
     }
     public void  aprender(){
+        System.out.println("");
 
     }
     public void  usarInstalaciones(){
+        System.out.println("");
 
 
     }

@@ -36,7 +36,7 @@ public class Docente {
      * @return titulo
      */
 
-    public String obtener_titulo(String titulo){
+    public String obtener_titulo(){
         this.titulo = titulo;
         return titulo;
     }

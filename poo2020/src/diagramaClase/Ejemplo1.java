@@ -36,15 +36,3 @@ public class Ejemplo1
 
 }
 
-
-    public static void main(String[] args) {
-        Ejemplo1 ejemplo1 =  new Ejemplo1();
-
-        ejemplo1.setAtributo1(1);
-
-        int mostrar = ejemplo1.actualizar_contador();
-        System.out.println(mostrar);
-    }
-}
-
-
