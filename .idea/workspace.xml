@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba4b40fc-cce6-4d84-8280-4e4113b48728" name="Default Changelist" comment="" />
+    <list default="true" id="ba4b40fc-cce6-4d84-8280-4e4113b48728" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +22,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/poo2020" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/poo2020" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -33,6 +35,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581126714905</updated>
       <workItem from="1581126716416" duration="22000" />
+      <workItem from="1581522296298" duration="73000" />
+      <workItem from="1581522529573" duration="27000" />
     </task>
     <servers />
   </component>
@@ -40,9 +44,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581126736589">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581522554149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581126736589" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581522554149" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581522535537">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581522535537" />
   </component>
 </project>
