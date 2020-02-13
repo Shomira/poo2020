@@ -1,10 +1,10 @@
 package diagramaClase;
 
 public class Celular {
-    private float precio;
+    private double  precio;
     private String marca;
-    private float peso;
-    private int ram;
+    private double  peso;
+    private String ram;
     private int capacidad_gb;
     private String procesador;
     private String pulgadas;
@@ -18,7 +18,7 @@ public class Celular {
      */
 
     // Creacion de metodos
-    public float  obtener_precio(){
+    public double  obtener_precio(){
         return this.precio;
     }
     /**
@@ -34,7 +34,8 @@ public class Celular {
      * @return this.peso
      */
 
-    public float  obtener_peso(){
+    public double obtener_peso()
+    {
         return this.peso;
     }
 
@@ -43,7 +44,7 @@ public class Celular {
      * @return ram
      */
 
-    public int obtener_ram(){
+    public String obtener_ram(){
         return ram;
     }
 
@@ -69,7 +70,7 @@ public class Celular {
      * Metod que actualiza la variable precio
      * @param precio
      */
-    public void  actualizar_precio(float precio ){
+    public void  actualizar_precio(double precio ){
         // Asigna a la variable global la local
         // Con el this hacemos referencia a variables globales
         this.precio = precio;
@@ -92,7 +93,7 @@ public class Celular {
      * @param peso
      */
 
-    public void  actualizar_peso(float peso){
+    public void  actualizar_peso(double peso){
         // Asigna a la variable global la local
         // Con el this hacemos referencia a variables globales
         this.peso = peso;
@@ -104,7 +105,7 @@ public class Celular {
      * @param ram
      */
 
-    public void  actualizar_peso(int ram){
+    public void  actualizar_ram(String  ram){
         // Asigna a la variable global la local
         // Con el this hacemos referencia a variables globales
         this.ram = ram;
@@ -116,10 +117,10 @@ public class Celular {
      * @param capacidad_gb
      */
 
-    public void  actualizar_capacidad_gb(int capacidad_gb){
+    public void  actualizar_procesador(String capacidad_gb){
         // Asigna a la variable global la local
         // Con el this hacemos referencia a variables globales
-        this.capacidad_gb = capacidad_gb;
+        this.procesador = capacidad_gb;
 
     }
 

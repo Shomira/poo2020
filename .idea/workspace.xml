@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba4b40fc-cce6-4d84-8280-4e4113b48728" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poo2020/src/diagramaClase/EjecutaAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poo2020/src/diagramaClase/EjecutaCelular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poo2020/src/diagramaClase/Celular.java" beforeDir="false" afterPath="$PROJECT_DIR$/poo2020/src/diagramaClase/Celular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poo2020/src/disenio_seleccion/EjecutaDia.java" beforeDir="false" afterPath="$PROJECT_DIR$/poo2020/src/disenio_seleccion/EjecutaDia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,17 +18,51 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Shomira/poo2020.git" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1XVMGmFz4gNWo6WRTUhg971Crfn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/poo2020" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RunManager">
+    <configuration type="Java Scratch" folderName="New Folder" singleton="false">
+      <module name="poo2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/poo2020" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -37,20 +77,91 @@
       <workItem from="1581126716416" duration="22000" />
       <workItem from="1581522296298" duration="73000" />
       <workItem from="1581522529573" duration="27000" />
+      <workItem from="1581556262487" duration="90000" />
+      <workItem from="1581556372614" duration="491000" />
+      <workItem from="1581556952483" duration="177000" />
+      <workItem from="1581557139993" duration="199000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581522554149">
+    <state x="494" y="71" key="#" timestamp="1581557301976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581522554149" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581522535537">
+    <state x="494" y="71" key="#/0.0.1536.824@0.0.1536.824" timestamp="1581557301976" />
+    <state x="494" y="71" key="#Unnamed" timestamp="1581557171522">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581522535537" />
+    <state x="494" y="71" key="#Unnamed/0.0.1536.824@0.0.1536.824" timestamp="1581557171522" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581557327102">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581557327102" />
+    <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581556314112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1581556314112" />
+    <state x="494" y="71" key="#poo2020" timestamp="1581557238743">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="494" y="71" key="#poo2020/0.0.1536.824@0.0.1536.824" timestamp="1581557238743" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1581556862429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1581556862429" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581557337657">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581557337657" />
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1581556537844">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1581556537844" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1581556862033">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581556862033" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581557162530">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581557162530" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1581556767180">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1581556767180" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581556852009">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581556852009" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/poo2020/src/disenio_seleccion/EjecutaDia.java</url>
+          <line>6</line>
+          <properties class="disenio_seleccion.EjecutaDia" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
