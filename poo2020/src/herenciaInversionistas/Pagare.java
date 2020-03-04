@@ -1,15 +1,20 @@
 package herenciaInversionistas;
-
+// Subclase
 public class Pagare extends Inversionista {
     private double intGeP;
-    public Pagare(int numCu, int numCl, String nom, double capInvert, int plazo){
-        this.numCuenta = numCu;
+    // Metodo constructor creado con variables heredadas
+    public Pagare(String numCu, int numCl, String nom, double capInvert, int plazo){
+        this.setNumCuenta(numCu);
         this.numCliente = numCl;
         this.nom = nom;
         this.capInvert = capInvert;
         this.plazoInv = plazo;
 
     }
+
+    /**
+     * metodo para calcular los interes de uin pagare
+     */
     public void CalcularIntPa(){
         if (capInvert >= 1000 && capInvert <= 2400){
             tazaInt = 0.05;
@@ -21,10 +26,18 @@ public class Pagare extends Inversionista {
         }
     }
 
+    /**
+     *  metodo que obtiene el valor de la variable
+     * @return intGeP
+     */
     public double getIntGeP() {
         return intGeP;
     }
 
+    /**
+     *  metodo que ayuda actualizar  el valor de la variable
+     * @param intGeP
+     */
     public void setIntGeP(double intGeP) {
         this.intGeP = intGeP;
     }

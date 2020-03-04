@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba4b40fc-cce6-4d84-8280-4e4113b48728" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poo2020/src/diagramaClase/EjecutaAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poo2020/src/diagramaClase/EjecutaCelular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poo2020/src/diagramaClase/Celular.java" beforeDir="false" afterPath="$PROJECT_DIR$/poo2020/src/diagramaClase/Celular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poo2020/src/disenio_seleccion/EjecutaDia.java" beforeDir="false" afterPath="$PROJECT_DIR$/poo2020/src/disenio_seleccion/EjecutaDia.java" afterDir="false" />
-    </list>
+    <list default="true" id="ba4b40fc-cce6-4d84-8280-4e4113b48728" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/poo2020" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -81,6 +73,7 @@
       <workItem from="1581556372614" duration="491000" />
       <workItem from="1581556952483" duration="177000" />
       <workItem from="1581557139993" duration="199000" />
+      <workItem from="1583282221664" duration="15000" />
     </task>
     <servers />
   </component>

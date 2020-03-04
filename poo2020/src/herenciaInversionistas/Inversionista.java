@@ -1,7 +1,8 @@
 package herenciaInversionistas;
 import java.util.Scanner;
+// SUPERCLASE
 public class Inversionista {
-    protected int numCuenta;
+    private String numCuenta;
     protected int numCliente;
     protected String nom;
     protected double capInvert;
@@ -22,51 +23,100 @@ public class Inversionista {
         this.capInvert = entrada.nextInt();
     }
 */
-    public int getNumCuenta() {
-        return numCuenta;
-    }
 
-    public void setNumCuenta(int numCuenta) {
-        this.numCuenta = numCuenta;
-    }
-
+    /**
+     * Metodo que obtiene el valor de la variable NumCliente
+     * @return numCliente
+     */
     public int getNumCliente() {
         return numCliente;
     }
 
+    /**
+     * Metodo que actualiza el valor de la variable
+     * @param numCliente
+     */
     public void setNumCliente(int numCliente) {
         this.numCliente = numCliente;
     }
 
+    /**
+     * metodo que obtiene el valor de la variable
+     * @return nom
+     */
     public String getNom() {
         return nom;
     }
 
+    /**
+     *  Metodo que actualiza el valor de la variable
+     * @param nom
+     */
     public void setNom(String nom) {
         this.nom = nom;
     }
 
+    /**
+     *  metodo que obtiene el valor de la variable
+     * @return capinvert
+     */
     public double getCapInvert() {
         return capInvert;
     }
 
+    /**
+     *  Metodo que actualiza el valor de la variable
+     * @param capInvert
+     */
     public void setCapInvert(double capInvert) {
         this.capInvert = capInvert;
     }
 
+    /**
+     *  metodo que obtiene el valor de la variable
+     * @return tazaInt
+     */
     public double getTazaInt() {
         return tazaInt;
     }
 
+    /**
+     * Metodo que actualiza el valor de la variable
+     * @param tazaInt
+     */
     public void setTazaInt(double tazaInt) {
         this.tazaInt = tazaInt;
     }
 
+    /**
+     *  metodo que obtiene el valor de la variable
+     * @return plazoInv
+     */
     public int getPlazoInv() {
         return plazoInv;
     }
 
+    /**
+     *  Metodo que actualiza el valor de la variable
+     * @param plazoInv
+     */
     public void setPlazoInv(int plazoInv) {
         this.plazoInv = plazoInv;
+    }
+
+    /**
+     *  metodo que obtiene el valor de la variable
+     * @return numCuenta
+     */
+    public String getNumCuenta() {
+        return numCuenta;
+    }
+
+    /**
+     *  Metodo que actualiza el valor de la variable
+     * @param numCuenta
+     */
+    public void setNumCuenta(String numCuenta) {
+        this.numCuenta = numCuenta;
     }
 }

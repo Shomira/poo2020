@@ -1,9 +1,20 @@
 package herenciaInversionistas;
+
 // Monto mini9mo de apertura 20000
+// LLamada a la superclase
 public class CuentaMaestra extends Inversionista{
     private double  intGeMa;
-    public CuentaMaestra(int numCu, int numCl, String nom, double capInvert, int plazo){
-        this.numCuenta = numCu;
+
+    /**
+     * Creacion del metodo constructor con las variables erredadas de la superclase
+     * @param numCu
+     * @param numCl
+     * @param nom
+     * @param capInvert
+     * @param plazo
+     */
+    public CuentaMaestra(String  numCu, int numCl, String nom, double capInvert, int plazo){
+        this.setNumCuenta(numCu);
         this.numCliente = numCl;
         this.nom = nom;
         this.capInvert = capInvert;
@@ -11,6 +22,9 @@ public class CuentaMaestra extends Inversionista{
 
     }
 
+    /***
+     * Merodo que calcula el interes tomando en cuenta el monto de inversion
+     */
     public void calcularIntCm() {
         if (capInvert >= 10000 && capInvert <= 10500) {
             tazaInt = 0.15;
@@ -29,11 +43,18 @@ public class CuentaMaestra extends Inversionista{
         }
     }
 
-
+    /**
+     * MEtodo que obtiene el valor de la vriable intGeMa
+     * @return intGeMa
+     */
     public double getIntGeMa() {
         return intGeMa;
     }
 
+    /**
+     * metodo que establece el valor de la variable intGeMa
+     * @param intGeMa
+     */
     public void setIntGeMa(double intGeMa) {
         this.intGeMa = intGeMa;
     }
